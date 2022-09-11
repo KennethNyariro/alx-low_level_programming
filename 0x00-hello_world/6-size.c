@@ -4,7 +4,7 @@
  * main-print the string in the printf function
  *
  * Description: using the main function
- * this program prints "Size of a: char, int, long int, long long int, float
+ * this program prints "Size of various types on the computer
  * Return: 0
  */
 {
@@ -13,6 +13,7 @@
 	long li;
 	long long lli;
 	float f;
+
 	printf("Size of a char: %ld byte(s)\n", (unsigned long)size0f(c));
 	printf("Size of an int: %ld byte(s)\n", (unsigned long)sizeof(i));
 	printf("Size of a long int: %ld byte(s)\n", (unsigned long)sizeof(li));
